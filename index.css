@@ -1,1 +1,138 @@
-essais
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+}
+
+.classfield {
+  height: 532px;
+  width: 532px;
+  background-color: rgb(203, 203, 203);
+  position: relative;
+  border-top: 10px solid #8e8c8e;
+  border-left: 10px solid #8e8c8e;
+  border-bottom: 10px solid white;
+  border-right: 19px solid white;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.classfield:after {
+  content: "";
+  position: absolute;
+  top: -22px;
+  left: -22px;
+  right: -22px;
+  bottom: -22px;
+  background-color: rgb(203, 203, 203);
+  z-index: -1;
+  border: solid black 1px;
+}
+
+.box {
+  background-color: rgb(203, 203, 203);
+  width: 62.5px;
+  height: 62.5px;
+  border: dashed black 2px;
+  flex: 0 0 62.5px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 65px;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Press Start 2P", cursive;
+}
+
+.box1 {
+  background-color: rgb(203, 203, 203);
+  width: 62.5px;
+  height: 62.5px;
+  border: dashed black 2px;
+  flex: 0 0 62.5px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 65px;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Press Start 2P", cursive;
+  color: blue;
+}
+
+.box2 {
+  background-color: rgb(203, 203, 203);
+  width: 62.5px;
+  height: 62.5px;
+  border: dashed black 2px;
+  flex: 0 0 62.5px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 65px;
+  color: green;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Press Start 2P", cursive;
+}
+
+.box3 {
+  background-color: rgb(203, 203, 203);
+  width: 62.5px;
+  height: 62.5px;
+  border: dashed black 2px;
+  flex: 0 0 62.5px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 65px;
+  color: red;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Press Start 2P", cursive;
+}
+
+.bomb {
+  background-color: rgb(203, 203, 203);
+  width: 62.5px;
+  height: 62.5px;
+  border: dashed black 2px;
+  flex: 0 0 62.5px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 65px;
+  color: red;
+}
+
+.imgbomb {
+  width: 50px;
+  height: 50px;
+  line-height: 65px;
+  padding-top: 5px;
+  padding-left: -5px;
+}
+
+.boxcache {
+  background-color: rgb(203, 203, 203);
+  width: 62.5px;
+  height: 62.5px;
+  border: dashed black 2px;
+  flex: 0 0 62.5px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 65px;
+  border: solid white 2.5px;
+  border-right: solid #919191 2.5px;
+  border-bottom: solid #919191 2.5px;
+}
+
+.box1:hover .boxcache {
+  display: none;
+}
